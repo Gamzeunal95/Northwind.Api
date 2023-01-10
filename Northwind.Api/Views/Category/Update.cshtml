@@ -1,0 +1,50 @@
+﻿@model Category
+
+
+
+<div class="card">
+    <h3>Güncelle</h3>
+    <div class="card-body">
+
+        <form asp-action="Update" asp-controller="Category" method="post" enctype="multipart/form-data">
+
+            <div class="input-group mb-3" hidden>
+                <input type="text" asp-for="id" class="form-control" placeholder="id">
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="text-danger" asp-validation-for="id"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="text" asp-for="name" class="form-control" placeholder="Name">
+                <div class="input-group-append">
+                    <div >
+                        <span class="text-danger" asp-validation-for="name"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="text" asp-for="description" class="form-control" placeholder="Açıklama">
+                <div class="input-group-append">
+                    <div >
+                        <span class="text-danger" asp-validation-for="description"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-right" style="display:flex; justify-content:flex-end;">   @*Kaydet butpnunu sağ'a konumlandırmak için*@
+                <button type="submit" class="btn btn-primary" value="Kaydet">Kaydet</button>
+            </div>
+           
+        </form>
+    </div>
+</div>
+@section Scripts
+    {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/jquery.multi-select.min.js"></script>
+
+}

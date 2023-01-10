@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "@sweetalert2/theme-borderless@5.0.15",
+      "destination": "wwwroot/lib/sweetalert2/theme-borderless/"
+    },
+    {
+
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/lib/sweetalert2/"
+    }
+  ]
+}
