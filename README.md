@@ -3,7 +3,7 @@
 - Northwind kullanıldı.
 -------------------------------------------
 - Client üzerinden egzersiz yapılmak için açılmış bir proje.
-- Verilen web servisde crud işlemleri hazır bir api üzerinden
+- Verilen web servisde crud işlemleri hazır bir api üzerinden??
 
 # Project 1 - Northwind.Api
 - Aşağıdaki paketler install edildi.
