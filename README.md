@@ -23,3 +23,4 @@
   
   - NOT: Bir tane generic bir APi yazıldi(WebApiClient) generiz olduğu için tüm controllerla ile iletişim haline geçebilecek. Apide yazdığımız crud işlemler ile Controllerlar arasında bağlantı kuruldu. Bu sayade her controller içinde yaptığımız crud işlemleri WebApiClient üzerinden yönlendirildi.
 
+
